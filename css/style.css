@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+@import url('https://fonts.google.com/specimen/Junge?query=Junge&preview.script=Latn');
+h1 {
+    font-family: 'Jacques Francois Shadow', serif;
+    background-color: #0E0751;
+    color: #ffffff;
+    font-size: 64px;
+}
+body{
+    background-color: #361735;
+}
+
+p{
+    color: aliceblue;
+    font-family: 'Junge';
+    font-size: 70px;
+    background-position: center;
+}
+
+#elmo {
+position: absolute;
+width: 50%;
+border-radius: 30px; 
+transition: transform 0.5s ease, box-shadow 0.5s ease;
+right: 200px;
+
+}
+
+#elmo:hover {
+    transform: translateY(-30px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+  }
+
+.putz{
+  display: flex;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 500px;
+}
+
+.cerberus{
+    display: flex;
+}
+
+#cerbe{
+    width: 50%;
+    display: flex;
+    border-radius: 30px; 
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+#cerbe:hover {
+    transform: translateY(-30px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+  }
+
+#cao{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+#hades{
+  border-radius: 30px; 
+transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+#hades:hover {
+    transform: translateY(-30px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+  }
